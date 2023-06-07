@@ -20,6 +20,9 @@ const connect = function() {
     conn.write('Name: LJL');
   });
 
+  // conn.on('connect', (message) => {
+  //   setInterval(() => { conn.write('Move: up'); }, 50);
+  // });
 
   return conn;
 };
